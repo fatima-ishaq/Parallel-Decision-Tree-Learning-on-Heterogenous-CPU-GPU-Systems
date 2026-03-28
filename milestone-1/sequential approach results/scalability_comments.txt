@@ -1,0 +1,41 @@
+Scalability comments based on benchmark_scalability.csv
+
+Dataset: Iris
+- Size scaling: x1.000
+- Train-time scaling: x0.963
+- Inference-time scaling: x1.000
+- Test-accuracy change: 0.000 percentage points
+- Comment: runtime appears close to linear with dataset growth.
+- Comment: test accuracy is relatively stable across sample sizes.
+
+Dataset: LetterRecognition
+- Size scaling: x10.000
+- Train-time scaling: x6.860
+- Inference-time scaling: x21.250
+- Test-accuracy change: 3.700 percentage points
+- Comment: runtime appears close to linear with dataset growth.
+- Comment: larger sample sizes improved generalization noticeably.
+
+Dataset: Shuttle
+- Size scaling: x10.000
+- Train-time scaling: x11.448
+- Inference-time scaling: x5.034
+- Test-accuracy change: 1.345 percentage points
+- Comment: runtime appears close to linear with dataset growth.
+- Comment: larger sample sizes improved generalization noticeably.
+
+Dataset: Skin_NonSkin
+- Size scaling: x10.000
+- Train-time scaling: x10.875
+- Inference-time scaling: x24.340
+- Test-accuracy change: 0.049 percentage points
+- Comment: runtime appears close to linear with dataset growth.
+- Comment: test accuracy is relatively stable across sample sizes.
+
+Dataset: Synthetic_dataset_1000k_200f
+- Size scaling: x10.000
+- Train-time scaling: x33.506
+- Inference-time scaling: x10.641
+- Test-accuracy change: 0.152 percentage points
+- Comment: runtime grows faster than linear; check depth/bin settings.
+- Comment: test accuracy is relatively stable across sample sizes.

@@ -1,0 +1,6 @@
+dataset,n_samples,n_features,n_classes,train_samples,test_samples,max_depth,min_samples_split,bin_count,train_time_sec,predict_time_sec,infer_time_per_sample_us,train_accuracy,test_accuracy
+Iris,150,5,3,120,30,8,2,8,0.0040749,0.0009489,31.63,1,1
+Shuttle,14500,9,7,11600,2900,8,2,8,0.0118494,0.0010236,0.352965517,1,0.999310345
+LetterRecognition,20000,16,26,16000,4000,8,2,8,0.0416979,0.001229,0.30725,0.637125,0.629
+Skin_NonSkin,245057,3,2,196045,49012,8,2,8,0.129733,0.0029159,0.059493593,0.996031523,0.995980576
+Synthetic_dataset_1000k_200f,1000000,200,10,800000,200000,8,2,8,393.9292363,0.127339,0.636695,0.9857825,0.98116
