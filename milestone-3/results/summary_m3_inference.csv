@@ -1,0 +1,6 @@
+Dataset,N_test,Seq_sps_M,ParS_sps_M,ParT_sps_M,ParS_speedup,ParT_speedup
+Iris,30,6.61,0.78,0.7,0.118,0.106
+Shuttle,2900,2.75,2.52,1.86,0.918,0.679
+Letter,4000,2.06,2.84,2.36,1.378,1.144
+Skin,49012,6.59,6.91,4.59,1.049,0.697
+Synth-1M,200000,2.62,3.78,1.73,1.441,0.66

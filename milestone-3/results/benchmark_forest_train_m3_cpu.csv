@@ -1,0 +1,6 @@
+dataset,variant,n_trees,n_samples,n_features,n_classes,test_accuracy,train_time_sec,total_tree_time_sec,gpu_kernel_time_sec,avg_tree_time_sec
+Iris,CPU-Only,10,150,5,3,1.000000,0.001248,0.000955,0.000000,0.000096
+Letter,CPU-Only,10,20000,16,26,0.615750,0.771381,0.767658,0.000000,0.076766
+Shuttle,CPU-Only,10,14500,9,7,0.999655,0.218668,0.215657,0.000000,0.021566
+Skin_NonSkin,CPU-Only,10,245057,3,2,0.207500,2.660155,2.620127,0.000000,0.262013
+Synthetic_1M_200f,CPU-Only,10,1000000,200,10,1.000000,756.710022,756.430030,0.000000,75.643003

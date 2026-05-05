@@ -1,0 +1,16 @@
+variant,n_samples,n_trees,n_threads,predict_time_sec,samples_per_sec,speedup
+Iris | Sequential (compact baseline),30,10,1,4.499999999999999e-06,6612298,1.0
+Iris | Parallel across samples,30,10,2,3.84e-05,780924,0.1181
+Iris | Parallel across trees,30,10,2,4.2999999999999995e-05,697350,0.1055
+Shuttle | Sequential (compact baseline),2900,10,1,0.0010558,2746607,1.0
+Shuttle | Parallel across samples,2900,10,2,0.0011497999999999999,2522278,0.9183
+Shuttle | Parallel across trees,2900,10,2,0.0015553,1864644,0.6789
+LetterRecognition | Sequential (compact baseline),4000,10,1,0.0019406,2061227,1.0
+LetterRecognition | Parallel across samples,4000,10,2,0.0014086,2839729,1.3777
+LetterRecognition | Parallel across trees,4000,10,2,0.0016959,2358587,1.1443
+Skin_NonSkin | Sequential (compact baseline),49012,10,1,0.0074405,6587158,1.0
+Skin_NonSkin | Parallel across samples,49012,10,2,0.0070937000000000005,6909270,1.0489
+Skin_NonSkin | Parallel across trees,49012,10,2,0.010680799999999999,4588802,0.6966
+Synthetic_1M_200f | Sequential (compact baseline),200000,10,1,0.0762533,2622835,1.0
+Synthetic_1M_200f | Parallel across samples,200000,10,2,0.0529206,3779244,1.4409
+Synthetic_1M_200f | Parallel across trees,200000,10,2,0.11549970000000001,1731605,0.6602

@@ -1,0 +1,6 @@
+Dataset,CPU_10trees_sec,GPU_Seq_10trees_sec,Speedup_GPU_vs_CPU
+Iris,0.0012,0.0064,0.2
+Shuttle,0.2187,0.0699,3.13
+Letter,0.7714,0.1282,6.02
+Skin,2.6602,0.3836,6.93
+Synth-1M,756.71,118.0897,6.41
